@@ -1,0 +1,44 @@
+:root {
+    --primary-color : #575235;
+    --secondary-color : #f4d159;
+}
+body {
+    align-items: center;
+    margin:0px;
+}
+.header {
+    background: var(--primary-color);
+    font-size: 4rem;
+    text-align: center;
+    padding : 2rem;
+    color : white;
+    margin-bottom : 2rem;
+    align-items: center;
+}
+.header .hero {
+    margin : auto;
+    width : 200px;
+}
+#input-txtarea, #output-txtarea {
+    background-color: lightgoldenrodyellow;
+    height : 150px;
+    width : 75%;
+    display : block;
+    border-radius: .5rem;
+    border-color:green;
+    color : red;
+    font-size: large;
+    padding : 1rem;
+    margin : auto;
+}
+#btn-translate {
+    display: block;
+    margin : 20px auto;
+    padding : 1rem;
+    font-size: medium;
+
+    border : 1px solid brown;
+    background-color: lightgoldenrodyellow;
+    color : maroon;
+    font-weight: bold;
+}
